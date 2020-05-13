@@ -1,0 +1,1 @@
+document.body.style.border="red 5px solid";

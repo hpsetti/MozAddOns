@@ -1,0 +1,16 @@
+html,body{
+    width: 100px;
+}
+
+.hidden {
+    display:none;
+}
+
+.beast:hover {
+    background-color: #CFF2F2;
+}
+
+.reset:hover {
+    background-color: #EAEA9D;
+}
+  
