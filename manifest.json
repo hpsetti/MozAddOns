@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "weather-extn",
+    "version": "1.0",
+  
+    "description": "An extension to display current weather",
+  
+    "permissions":["geolocation"],
+    
+    "browser_action":{
+        "browser_style":true,
+        "default_icon":{
+            "16":"icon/weather-16.png",
+            "32":"icon/weather-32.png",
+            "64":"icon/weather-64.png"
+        },
+        "default_title":"Weather",
+        "default_popup":"popup/form.html"
+
+        
+    },
+    "options_ui":{
+        "page":"options/weather.html"
+    }
+  
+  }

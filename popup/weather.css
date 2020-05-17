@@ -1,0 +1,12 @@
+/* .weather-display{
+    display: none;
+} */
+
+body,html {
+    width: 500px;
+    height: 350px;
+}
+
+.hidden-data {
+    display: none;
+}
